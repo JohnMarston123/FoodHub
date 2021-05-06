@@ -1,0 +1,35 @@
+.the-developers{
+    padding-top: 10em;
+    padding-bottom: 10em;
+}
+h2{
+    font-size: 50x;
+    color: #000;
+    font-family: "Playfair Display", serif;
+}
+#developer {
+    img{
+        border-radius: 50%;
+        width: 200px;
+    }
+    .developer-{
+    &name{
+        font-family: "Playfair Display", serif;
+        font-size: 30px;
+    }
+    &sub-name {
+        color: #b3b3b3;
+        letter-spacing: 0.1em;
+        font-family: "Open Sans" , Arial, Helvetica, sans-serif;
+        font-weight: 100;
+    }
+    &description{
+        color: #808080;
+        font-weight: 300;
+    }
+    &facebook{
+
+    }
+    }
+
+}

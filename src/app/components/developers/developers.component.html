@@ -1,0 +1,25 @@
+<div class="container the-developers">
+    <div class= "row">
+        <div class = "col-12">
+            <h2 class = "text-center">
+                Meet the Developers
+            </h2>
+        </div>
+        <div class = "col-md-6 col-12" id="developer" *ngFor = "let developers of developersList" >
+    
+            <div class = "row text-center">
+                <div class = "col-12 m-2">
+                    <img src= "{{developers.picture}}" alt = " {{developers.picture}}" >
+                </div>
+                <div class = "col-12 developer-name m-2"> {{developers.name}}</div>
+                <div class = "col-12 developer-sub-name m-2"> {{developers.role}}</div>
+                <div class = "col-12 developer-description "> {{developers.description}}</div>
+                <div class = "col-12 developer-social"> 
+                    <span class= "mt-5 pb-5 ml-2 mr-2 d-inline-block">{{developers.facebook}}</span>
+                    <span class= "mt-5 pb-5 ml-2 mr-2 d-inline-block">{{developers.twitter}}</span>
+                    <span class= "mt-5 pb-5 ml-2 mr-2 d-inline-block">{{developers.instagram}}</span>
+                </div>
+            </div>
+        </div>       
+    </div>  
+</div>
